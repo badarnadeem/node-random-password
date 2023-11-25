@@ -1,0 +1,20 @@
+{
+  "name": "@badarnadeem/random-password",
+  "version": "1.0.0",
+  "description": "Generate random passwords of different types and lenghts",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "random",
+    "password",
+    "generate"
+  ],
+  "author": "Badar Nadeem",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
