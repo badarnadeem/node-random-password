@@ -7,7 +7,7 @@ Generate random passwords of different types and lengths
 Install the package using the following composer command
 
 ```
-npm install @badarnadeem/random-password
+npm install @badrnadeem/random-password
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Using the Password class to generate random passwords
 
 ```
 
-import Password from '@badarnadeem/random-password';
+import Password from '@badrnadeem/random-password';
 
 const password = new Password;
 
@@ -30,7 +30,7 @@ Pass in custom length and strength for your passwords. The default password leng
 
 ```
 
-import Password, { PasswordStrength } from '@badarnadeem/random-password';
+import Password, { PasswordStrength } from '@badrnadeem/random-password';
 
 const password = new Password({ 
     length: 12, 
@@ -46,7 +46,7 @@ The following 3 options are available for password strength
 
 ```
 
-import { PasswordStrength } from '@badarnadeem/random-password';
+import { PasswordStrength } from '@badrnadeem/random-password';
 
 PasswordStrength.strengthStrong;
 PasswordStrength.strengthMedium;

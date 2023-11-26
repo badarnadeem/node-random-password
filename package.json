@@ -1,5 +1,5 @@
 {
-  "name": "@badarnadeem/random-password",
+  "name": "@badrnadeem/random-password",
   "version": "1.0.0",
   "description": "Generate random passwords of different types and lenghts",
   "type": "module",
