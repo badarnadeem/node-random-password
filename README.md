@@ -16,7 +16,7 @@ Using the Password class to generate random passwords
 
 ```
 
-import Password from 'random-password';
+import Password from '@badarnadeem/random-password';
 
 const password = new Password;
 
@@ -30,7 +30,8 @@ Pass in custom length and strength for your passwords. The default password leng
 
 ```
 
-import { Password, PasswordStrength } from 'random-password';
+import Password from '@badarnadeem/random-password';
+import { PasswordStrength } from '@badarnadeem/random-password';
 
 const password = new Password({ 
     length: 12, 
@@ -46,7 +47,7 @@ The following 3 options are available for password strength
 
 ```
 
-import { PasswordStrength } from 'random-password';
+import { PasswordStrength } from '@badarnadeem/random-password';
 
 PasswordStrength.strengthStrong;
 PasswordStrength.strengthMedium;
