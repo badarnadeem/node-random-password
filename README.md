@@ -30,8 +30,7 @@ Pass in custom length and strength for your passwords. The default password leng
 
 ```
 
-import Password from '@badarnadeem/random-password';
-import { PasswordStrength } from '@badarnadeem/random-password';
+import Password, { PasswordStrength } from '@badarnadeem/random-password';
 
 const password = new Password({ 
     length: 12, 
